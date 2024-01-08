@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    background-color: rgb(246, 237, 253);
+}
+
+
+.maindiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:660px;
+height:500px;
+background-color: white;
+box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+text-align: center;
+margin: 80px auto;
+border-radius: 8px;
+background-color:rgb(251, 232, 236);
+
+}
+.heading{
+    margin:10px;
+    color:green;
+    animation-name: identifier;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.container{
+    margin:10px;
+}
+.placeholder1{
+    border-radius: 5px;
+    border:1px solid rgb(185, 114, 240);
+}
+.placeholder{
+    border-radius: 5px;
+    border:1px solid rgb(185, 114, 240);
+}
+.button{
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(185, 114, 240);
+    color:white;
+    font-weight: bold;
+    width:120px;
+    height:30px;
+    font-size: 15px;
+}
+
+.optionContainer{
+    border-radius: 5px;
+    border:1px solid rgb(185, 114, 240);
+    background: white;
+    margin: 5px;
+}
+
+.optionContainer2{
+    border-radius: 5px;
+    border:1px solid rgb(185, 114, 240);
+    background: white;
+}
+
+@keyframes identifier {
+    from{transform: scaleY(0.5);}
+    to{transform: scaleX(1.2);}
+}
+
+@media (max-width: 768px) {
+   .maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+   }
+   .heading{
+    font-size: 10px;
+    
+   }
+   .placeholder1{
+    width:250px;
+   }
+   .placeholder{
+    width:250px;
+   }
+
+
+      
+}
